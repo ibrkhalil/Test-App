@@ -1,32 +1,33 @@
-.repoItem{
+*{
+    margin: 0px;
+    padding:0px;
+    }
+
+.repoContainer{
     display: flex;
-    justify-content:center;
+    margin-bottom: 3rem;
+}
+.ownerAvatar{
+    max-width: 150px;
+    
+}
+
+.repoStarsAndIssues{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    padding-left:  1rem;
+}
+
+.repoDetails{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;  
     align-items: center;
     
 }
 
-.repoItemDetails{
-    display: flex;
-    flex-direction: column;    
-}
-
-.repoStarsAndIssues{
-    display: flex; 
-    justify-content: space-around;
-}
-
-.ownerAvatar{
-    max-width: 150px;
-    box-sizing: border-box;
-}
-
 .count{
-    padding: 2px;
+    padding: 4px;
     border: 3px solid black;
 }
-
-.description{
-    width: 70%;
-}
-
-
