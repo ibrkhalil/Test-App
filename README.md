@@ -1,3 +1,5 @@
+## Infinite Scrolling Feature by react-infinite-scroll-component from NPM
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
