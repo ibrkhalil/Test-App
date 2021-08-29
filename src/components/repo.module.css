@@ -9,7 +9,7 @@
 }
 .ownerAvatar{
     max-width: 150px;
-    
+    min-height: 150px;
 }
 
 .repoStarsAndIssues{
